@@ -1,0 +1,18 @@
+com:
+  tree:
+    word: === ${com.tree.name}, ${com.tree.welcome} !
+    name: cui
+    welcome: happy new year
+prop:
+  user:
+    id: 1
+    password: 123456
+management:
+  security:
+    enabled: false
+test:
+  datasource:
+    url: jdbc:mysql://172.18.0.2:3306/mbk_bikeinfo?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driverName: com.mysql.jdbc.Driver
